@@ -10,3 +10,9 @@ def centuryFromYear(year):
         return year / 100
     else :
         return (year// 100)+1
+    #----------------------checkPalindrome----------------
+    def checkPalindrome(inputString):
+    if inputString == "".join(reversed(inputString)):
+        return True
+    else : 
+        return False
